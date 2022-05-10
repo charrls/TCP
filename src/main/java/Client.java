@@ -44,7 +44,7 @@ public class Client {
                 String[] entrada = userInput.split(" ");
                 if (entrada[0].equals("CONNECT") || entrada[0].equals("connect")) {
 
-                    System.out.println("CONNECT," + entrada[1]);
+                    System.out.println("CONNECT>" + entrada[1]);
                     entrar = true;
                 } else {
                     System.err.println(
